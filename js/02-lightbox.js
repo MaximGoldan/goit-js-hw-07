@@ -20,6 +20,7 @@ const render = () => {
 render();
 
 const gallaryEl = new SimpleLightbox('ul.gallery a', {
+  captionPosition: 'bottom',
   captionsData: 'alt',
-  captionsDelay: 250,
+  animationSpeed: 250,
 });
