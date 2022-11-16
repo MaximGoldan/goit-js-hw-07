@@ -22,5 +22,5 @@ render();
 const gallaryEl = new SimpleLightbox('ul.gallery a', {
   captionPosition: 'bottom',
   captionsData: 'alt',
-  animationSpeed: 250,
+  captionDelay: 250,
 });
